@@ -53,7 +53,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 if($result->num_rows == 1){
                     // Bind result variables
                     $fila = $result->fetch_assoc();
-                    if($stmt->fetch()){
+
                         if(password_verify($password, $fila["passwd"])){
                             // Password is correct, so start a new session
 
@@ -74,9 +74,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $login_err = "Invalid username or password.";
                         }
                     }
-                } else{
-                    // Username doesn't exist, display a generic error message
-                    $login_err = "Invalid username or password.";
                 }
             } else{
                 echo "Oops! Something went wrong. Please try again later.";
@@ -89,7 +86,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     
     // Close connection
     $mysqli->close();
-}
+
 ?>
  
 <!DOCTYPE html>
@@ -98,15 +95,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 360px; padding: 20px; }
-    </style>
+    <link href="css/signin.css" rel="stylesheet">
 </head>
-<body>
-    <div class="wrapper">
-        <h2>Login</h2>
-        <p>Please fill in your credentials to login.</p>
+<body class="text-center">
+<main class="form-signin">
+    <form>
+        <img class="mb-4" src="imagenes/pelotaLogo.png" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 fw-normal">¡Bienvenido</h1>
 
         <?php 
         if(!empty($login_err)){
@@ -115,25 +110,26 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         ?>
 
         <form action="<?php echo htmlspecialchars($_SERVER["SCRIPT_NAME"]); ?>" method="post">
-            <div class="form-group">
-                <label>Email address</label>
-                <label>
-                    <input type="text" name="email" class="form-control <?php echo (!empty($email_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $email; ?>">
-                </label>
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" <?php echo (!empty($email_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $email; ?>">
+                <label for="floatingInput">Correo electronico</label>
                 <span class="invalid-feedback"><?php echo $email_err; ?></span>
             </div>    
-            <div class="form-group">
-                <label>Password</label>
-                <label>
-                    <input type="password" name="password" class="form-control <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
-                </label>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" <?php echo (!empty($password_err)) ? 'is-invalid' : ''; ?>">
+                <label for="floatingPassword">Contraseña</label>
                 <span class="invalid-feedback"><?php echo $password_err; ?></span>
             </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Login">
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Recordar más tarde
+                </label>
             </div>
-            <p>Don't have an account? <a href="registro.php">Sign up now</a>.</p>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesion</button>
+            <p>¿No tienes cuenta aún?<a href="registro.php">Registrate ahora</a>.</p>
+            <p class="mt-5 mb-3 text-muted">&copy;2001–2021</p>
         </form>
-    </div>
+    </form>
+    </main>
 </body>
 </html>

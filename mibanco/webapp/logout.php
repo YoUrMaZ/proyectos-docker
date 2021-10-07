@@ -1,2 +1,14 @@
-[InternetShortcut]
-URL=https://aulavirtual33.educa.madrid.org/ies.quevedo.madrid/pluginfile.php/45185/mod_folder/content/0/logout.php?forcedownload=1
+<?php
+// Initialize the session
+session_start();
+
+// Unset all of the session variables
+session_unset();
+
+// Destroy the session.
+session_destroy();
+
+// Redirect to login page
+header("location: login.php");
+exit;
+?>
