@@ -17,3 +17,14 @@ CREATE TABLE vacuna (
                         tiempo_minimo INT,
                         tiempo_maximo INT
 );
+
+
+
+CREATE TABLE pacientes (
+                        id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+                        nombre VARCHAR(20) NOT NULL,
+                        apellidos VARCHAR(100) NOT NULL,
+                        DNI VARCHAR(9) NOT NULL,
+                        edad VARCHAR(3) NOT NULL
+
+);

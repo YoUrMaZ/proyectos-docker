@@ -32,14 +32,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Link</a>
+                    <a class="nav-link active" href="create.php">Crear Vacuna</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link active" href="#">Disabled</a>
+                    <a class="nav-link active" href="listado.php">lista de vacunas</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link active" href="pacientes.php">Registrar pacientes</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Opciones</a>
@@ -91,7 +91,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <div class="carousel-caption text-right">
                         <h1>Cita</h1>
                         <p>para pedir cita a un paciente presiona el boton</p>
-                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">cita</a></p>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <p><a class="btn btn-secondary" href="calendario/index.php" role="button">Ver el calendario &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
-                <img class="rounded-circle" src="imagenes/Edward_Jenner2.jpg" alt="Generic placeholder image" width="140" height="140">
+                <img class="rounded-circle" src="imagenes/libro.jpg" alt="Generic placeholder image" width="140" height="140">
                 <h2>Historia</h2>
                 <p>la historia completa en el siguiente enlace de como se desarrollo la primera vacuna</p>
                 <p><a class="btn btn-secondary" href="#" role="button">Ver detalles &raquo;</a></p>
@@ -188,7 +188,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

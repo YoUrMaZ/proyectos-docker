@@ -6,6 +6,7 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
+  background-image: url("https://fondosmil.com/fondo/22293.jpg");
 }
 
 
@@ -13,6 +14,9 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
+body{
+  color: white;
+}
 .carousel {
   margin-bottom: 4rem;
 }
@@ -93,3 +97,4 @@ body {
   text-align: center;
   background-color: #0a58ca;
 }
+
