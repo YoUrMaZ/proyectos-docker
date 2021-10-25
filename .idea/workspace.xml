@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1e5745f-4568-40da-83c3-a14586371bbf" name="Changes" comment="proyectoFinal">
+      <change afterPath="$PROJECT_DIR$/mibanco/db-data/binlog.000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/db-data/binlog.000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/db-data/binlog.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/db-data/ib_buffer_pool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/db-data/quevedodb/eventoscalendar.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/db-data/quevedodb/pacientes.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/db-data/quevedodb/usuarios.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/db-data/quevedodb/vacuna.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/sql/00_crear_tablas.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/buscar-backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/buscarAjax.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/.idea/Como_Crear_evento_con_Fullcalendar_usando_jQuery_Ajax_Javascript_PHP_Mysql-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/UpdateEvento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/css_cal/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/css_cal/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/css_cal/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/deleteEvento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/drag_drop_evento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/js_cal/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/js_cal/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/js_cal/jquery-3.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/js_cal/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/js_cal/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ar-dz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ar-kw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ar-ly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/de-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/es-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/fr-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/hy-am.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ta-in.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/locales/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/modalNuevoEvento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/modalUpdateEvento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/msjs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/calendario/nuevoEvento.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/configuracion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/css/blog.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/css/estilo-footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/css/form-validation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/css/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/css/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/imagenes/bombilla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/imagenes/citas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/imagenes/libro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/imagenes/listas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/imagenes/logo_principal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/imagenes/portada1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/imagenes/portada2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/imagenes/portada3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/imagenes/vaca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/imagenes/viruela.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/holder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/jquery-3.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/jquery-3.2.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/jquery-slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/js/script-footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/listado.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/listadoPacientes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/pacientes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/read.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/registro.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/reset-password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mibanco/webapp/welcome.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpDebugGeneral" break_at_first_line="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="afa50f0c-27e1-4de9-bba9-3eb6836c69fe" name="localhost" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/mibanco/webapp" remote-root="/var/www/html" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="ProjectId" id="1z8xQ0LrJP5XqMptJHpvGmF6Pn6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mibanco/webapp" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\2daw\PhpstormProjects\proyectos-docker\mibanco\webapp" />
+      <recent name="C:\Users\2daw\PhpstormProjects\proyectos-docker\mibanco\webapp\calendario" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\2daw\PhpstormProjects\proyectos-docker\mibanco\webapp" />
+      <recent name="C:\Users\2daw\PhpstormProjects\proyectos-docker\webapp\pacientes" />
+      <recent name="C:\Users\2daw\PhpstormProjects\proyectos-docker\webapp" />
+      <recent name="C:\Users\2daw\PhpstormProjects\proyectos-docker" />
+      <recent name="C:\Users\2daw\PhpstormProjects\proyectos-docker\mibanco\webapp\imagenes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.mibanco: Compose Deployment">
+    <configuration name="docker-compose.yml.web: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="web" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="mibanco: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="mibanco/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.mibanco: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.web: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1e5745f-4568-40da-83c3-a14586371bbf" name="Changes" comment="" />
+      <created>1633543496318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633543496318</updated>
+      <workItem from="1633543497611" duration="4978000" />
+      <workItem from="1633617317973" duration="631000" />
+      <workItem from="1633621358585" duration="6773000" />
+      <workItem from="1633710200465" duration="6875000" />
+      <workItem from="1634227398421" duration="1472000" />
+      <workItem from="1634309589708" duration="2568000" />
+      <workItem from="1634566763394" duration="1343000" />
+      <workItem from="1634568164432" duration="3129000" />
+      <workItem from="1634651643362" duration="3590000" />
+      <workItem from="1634655283154" duration="8680000" />
+      <workItem from="1634738409328" duration="9178000" />
+      <workItem from="1634831891766" duration="4883000" />
+      <workItem from="1634918564011" duration="430000" />
+      <workItem from="1634918997407" duration="227000" />
+      <workItem from="1634919226671" duration="877000" />
+      <workItem from="1634920218509" duration="6755000" />
+      <workItem from="1634929319034" duration="204000" />
+      <workItem from="1635170820924" duration="13799000" />
+    </task>
+    <task id="LOCAL-00001" summary="2">
+      <created>1633629483259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633629483259</updated>
+    </task>
+    <task id="LOCAL-00002" summary="3">
+      <created>1633717632438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633717632438</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4">
+      <created>1634666918448</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634666918448</updated>
+    </task>
+    <task id="LOCAL-00004" summary="4">
+      <created>1634666966154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1634666966154</updated>
+    </task>
+    <task id="LOCAL-00005" summary="proyectoFinal">
+      <created>1635185522533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635185522537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="2" />
+    <MESSAGE value="3" />
+    <MESSAGE value="4" />
+    <MESSAGE value="proyectoFinal" />
+    <option name="LAST_COMMIT_MESSAGE" value="proyectoFinal" />
+  </component>
+</project>
