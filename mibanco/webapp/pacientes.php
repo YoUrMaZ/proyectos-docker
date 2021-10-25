@@ -96,12 +96,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <style>
         .wrapper{
-            margin: 600px;
-            margin-bottom: 100px;
-            margin-top: 100px;
-
-
+            width: 600px;
+            margin: 0 auto;
         }
+
     .result p {
         margin: 0;
         padding: 7px 10px;
@@ -120,7 +118,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
 
     <meta charset="UTF-8">
-    <title>PHP MySQL AJAX ejemplo</title>
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script>
@@ -155,7 +152,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>s
+            <span class="navbar-toggler-icon bg-black"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
@@ -185,7 +182,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <main role="main">
     <div class="wrapper">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-12">
                     <h2 class="mt-5">Registro paciente</h2>
                     <form action="<?php echo htmlspecialchars($_SERVER["SCRIPT_NAME"]); ?>" method="post">
@@ -220,8 +217,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         <a href="listado.php" class="btn btn-secondary ml-2">Cancelar</a>
                     </form>
                 </div>
+                <div class="col-2"></div>
             </div>
         </div>
+        <br/><br/><br/><br/><br/><br/><br/>
     </div>
     <footer class="footer text-center col-12">
         <div class="container">
@@ -253,7 +252,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>
     </footer>
 </main>
-
 </body>
 </html>
 
